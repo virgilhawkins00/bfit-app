@@ -106,7 +106,7 @@ const HomeScreen = () => {
             <View style={{aspectRatio: i===0 ? 1 : 2/3, 
             position: "relative", 
             overflow: "hidden", 
-            marginTop: 12,
+            marginTop: 16,
             borderRadius: 18
             }}>
               <Image source={{uri: "https://i.imgur.com/H1HCPyV.png",}} 
