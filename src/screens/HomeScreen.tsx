@@ -1,9 +1,10 @@
-import { View, Text, Image, FlatList, ScrollView } from 'react-native'
+import { View, Text, Image, FlatList, ScrollView, StyleSheet } from 'react-native'
 import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '@react-navigation/native';
 import Icons from "@expo/vector-icons/MaterialIcons"
 import { TouchableOpacity } from 'react-native';
+import MasonryList from 'reanimated-masonry-list';
 
 
 const CATEGORIES =  [
@@ -91,7 +92,31 @@ const HomeScreen = () => {
           </Text>
         </TouchableOpacity>)}} />
         {/*Title Section*/}
-        <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24}}>Today's Activity</Text>
+        <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24}}>Today's Activity</Text>
+        {/*Flatlist Section*/}
+       
+        {/* MansonryList */}    
+        <MasonryList  
+          data={[1, 2, 3, 454, 4, 56, 44]}
+          keyExtractor={(item): string => item}
+          numColumns={2}
+          contentContainerStyle={{paddingHorizontal: 24}}
+          showsVerticalScrollIndicator={false}
+          renderItem={({item, i}) => (
+            <View style={{aspectRatio: i===0 ? 1 : 2/3, 
+            position: "relative", 
+            overflow: "hidden", 
+            marginTop: 12,
+            borderRadius: 18
+            }}>
+              <Image source={{uri: "https://i.imgur.com/H1HCPyV.png",}} 
+              resizeMode="cover"
+              style={StyleSheet.absoluteFill}
+              />
+            </View>
+          )}
+          onEndReachedThreshold={0.1}
+          />
         {/*Cards */}
         <View style={{flexDirection: "row", height: 200, gap: 12}}> 
           <Card/>
@@ -100,9 +125,7 @@ const HomeScreen = () => {
 
          <Card/>
         </View>
-        {/*Flatlist Section*/}
-        <FlatList data={CATEGORIES} horizontal renderItem={({item}) => <Text>{item}</Text>} />
-
+        
       </SafeAreaView>
     </View>
     </ScrollView>
