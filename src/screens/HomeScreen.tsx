@@ -225,18 +225,18 @@ const HomeScreen = () => {
           {/*Title Section*/}
         <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Exercicios Recentes</Text>
         <View>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={openFilterModal}>
           <View style={{flexDirection: "row", alignItems: "center", justifyContent: "center", }}>
             <Image source={require('../assets/images/breakfast.png') }resizeMode="contain"/>
           </View> 
-        </TouchableOpacity>
+        </TouchableOpacity >
         <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Instrutor de Fitness</Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={openFilterModal}>
           <View style={{flexDirection: "row", alignItems: "center", justifyContent: "center", }}>
             <Image source={require('../assets/images/jimmy.png') }resizeMode="contain"/>
           </View> 
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={openFilterModal}>
           <View style={{flexDirection: "row", alignItems: "center", justifyContent: "center", }}>
             <Image source={require('../assets/images/maiya.png') }resizeMode="contain"/>
           </View> 
