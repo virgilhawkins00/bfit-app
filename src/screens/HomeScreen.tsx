@@ -1,10 +1,22 @@
-import { View, Text, Image, FlatList, ScrollView, StyleSheet } from 'react-native'
-import React, { useState } from 'react'
+import { 
+  View, 
+  Text, 
+  Image, 
+  FlatList, 
+  ScrollView, 
+  StyleSheet 
+} from 'react-native'
+import React, { useCallback, useState, useRef } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '@react-navigation/native';
 import Icons from "@expo/vector-icons/MaterialIcons"
 import { TouchableOpacity } from 'react-native';
 import MasonryList from 'reanimated-masonry-list';
+import { NavigationContainerProps } from '@react-navigation/native';
+import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheet/BottomSheet';
+import ImageListItem from '@mui/material/ImageListItem'
+import { BottomSheetModal } from '@gorhom/bottom-sheet';
+import CustomBackdrop from '../components/CustomBackdrop';
 
 
 const CATEGORIES =  [
@@ -16,9 +28,63 @@ const CATEGORIES =  [
 
 const AVATAR_URL = 'https://img.freepik.com/fotos-gratis/pessoa-de-origem-indiana-se-divertindo_23-2150285283.jpg?w=360&t=st=1687176152~exp=1687176752~hmac=fbf8afa8c65b18c275ddb246dc36e15278fd4dbcdde99c19acb391f80a027662';
 
+
+const images = [
+  {
+    id: 1,
+    imageUrl: "https://i.imgur.com/H1HCPyV.png",
+    title: "Steps",
+    
+  },
+  {
+    id: 2,
+    imageUrl: "https://i.imgur.com/pjAsENm.png",
+    title: "Sleep",
+    
+  },
+  {
+    id: 3,
+    imageUrl: "https://i.imgur.com/Jujl8sR.png",
+    title: "Heart",
+    
+  },
+  {
+    id: 4,
+    imageUrl: "https://i.imgur.com/Lrd2RmH.png",
+    title: "Calories",
+   
+  }
+];
+
+// const EXERCICIOS =[
+//   {
+//     imageUrl: "https://i.imgur.com/hD9AhHF.png",
+//     title: "Yoga",
+//   },
+//   {
+//     imageUrl: "https://i.imgur.com/XoFdGOT.png",
+//     title: "Skipping",
+//   },
+//   {
+//     imageUrl: "https://i.imgur.com/IolQghA.png",
+//     title: "Running",
+//   },
+  
+
+// ]
+
 const HomeScreen = () => {
     const {colors} = useTheme()
     const [categoryIndex, setCategoryIndex] = useState(0)
+    const bottomSheetModalRef = useRef<BottomSheetModal>(null);
+
+    const openFilterModal = useCallback(() => {
+      bottomSheetModalRef.current?.present();
+    }, []);
+    // const handleSheetChanges = useCallback((index: number) => {
+    //   console.log('handleSheetChanges', index)
+    // }, []);
+    
   return (
     <ScrollView>
     <View>
@@ -30,7 +96,7 @@ const HomeScreen = () => {
               <Text style={{fontSize: 18, fontWeight: "600", marginBottom: 5}} numberOfLines={1}>Olá, Lucy! 👋</Text>
               <Text style={{ color: colors.text, opacity: 0.75 }} numberOfLines={1}>Bom dia! </Text>
             </View>
-            <TouchableOpacity style={{width: 52, aspectRatio: 1, alignItems: 'center', justifyContent: "center", borderRadius: 52, borderWidth: 1, borderColor: colors.border,}}>
+            <TouchableOpacity onPress={openFilterModal} style={{width: 52, aspectRatio: 1, alignItems: 'center', justifyContent: "center", borderRadius: 52, borderWidth: 1, borderColor: colors.border,}}>
               <Icons name="event" size={30} color={colors.text}></Icons>
             </TouchableOpacity>
             <TouchableOpacity style={{width: 52, aspectRatio: 1, alignItems: 'center', justifyContent: "center", borderRadius: 52, borderWidth: 1, borderColor: colors.border,}}>
@@ -77,7 +143,8 @@ const HomeScreen = () => {
                 paddingVertical: 18,
                 borderRadius: 100,
                 borderWidth: isSelected ? 0 : 1,
-                borderColor: colors.border
+                borderColor: colors.border,
+                marginLeft: 10
               }}
             >
             <Text 
@@ -92,42 +159,100 @@ const HomeScreen = () => {
           </Text>
         </TouchableOpacity>)}} />
         {/*Title Section*/}
-        <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24}}>Today's Activity</Text>
+        <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Today's Activity</Text>
         {/*Flatlist Section*/}
        
         {/* MansonryList */}    
         <MasonryList  
-          data={[1, 2, 3, 454, 4, 56, 44]}
+          data={images}
           keyExtractor={(item): string => item}
           numColumns={2}
-          contentContainerStyle={{paddingHorizontal: 24}}
+          contentContainerStyle={{paddingHorizontal: 0}}
           showsVerticalScrollIndicator={false}
-          renderItem={({item, i}) => (
-            <View style={{aspectRatio: i===0 ? 1 : 2/3, 
+          renderItem={({item, i}: any) => (
+            <View style={{ padding: 0}}>
+              <View style={{aspectRatio: i===0 ? 1 : 2/3, 
             position: "relative", 
             overflow: "hidden", 
-            marginTop: 16,
-            borderRadius: 18
+            borderRadius: 10
             }}>
-              <Image source={{uri: "https://i.imgur.com/H1HCPyV.png",}} 
-              resizeMode="cover"
-              style={StyleSheet.absoluteFill}
-              />
+              <Image
+                source={{uri: item.imageUrl,}} 
+                resizeMode="contain" 
+                style={StyleSheet.absoluteFill}
+                />
+            </View>
             </View>
           )}
           onEndReachedThreshold={0.1}
           />
+          {/*Title Section*/}
+        <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Exercicios Recentes</Text>
+            
         {/*Cards */}
-        <View style={{flexDirection: "row", height: 200, gap: 12}}> 
-          <Card/>
-         <View style={{ flex: 1}}/>
-         <Card/>
-
-         <Card/>
+        <View style={{ flexDirection: "row", height: 200, gap: 12 }}>
+            <Card
+              // onPress={() => {
+              //   navigation.navigate('Details', {
+              //     id: "123",
+              //   });
+              // }}
+              
+              imageUrl="https://i.imgur.com/hD9AhHF.png"
+            />
+            <View style={{ flex: 1, gap: 12 }}>
+              <Card
+                // onPress={() => {
+                //   navigation.navigate("Details", {
+                //     id: "456",
+                //   });
+                // }}
+               
+                imageUrl="https://i.imgur.com/XoFdGOT.png"
+              />
+              <Card
+                // onPress={() => {
+                //   navigation.navigate("Details", {
+                //     id: "789",
+                //   });
+                // }}
+                
+                imageUrl="https://i.imgur.com/IolQghA.png"
+              />
+            </View>
+            
+          </View>
+          {/*Title Section*/}
+        <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Exercicios Recentes</Text>
+        <View>
+        <TouchableOpacity>
+          <View style={{flexDirection: "row", alignItems: "center", justifyContent: "center", }}>
+            <Image source={require('../assets/images/breakfast.png') }resizeMode="contain"/>
+          </View> 
+        </TouchableOpacity>
+        <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Instrutor de Fitness</Text>
+        <TouchableOpacity>
+          <View style={{flexDirection: "row", alignItems: "center", justifyContent: "center", }}>
+            <Image source={require('../assets/images/jimmy.png') }resizeMode="contain"/>
+          </View> 
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <View style={{flexDirection: "row", alignItems: "center", justifyContent: "center", }}>
+            <Image source={require('../assets/images/maiya.png') }resizeMode="contain"/>
+          </View> 
+        </TouchableOpacity>
+        
         </View>
         
+        
       </SafeAreaView>
+            
+
+      
     </View>
+    <BottomSheetModal snapPoints={['75%']} index={0} ref={bottomSheetModalRef} backdropComponent={(props) => <CustomBackdrop {...props}/>}>
+            <Text>Modal</Text>
+    </BottomSheetModal>
     </ScrollView>
   )
 }
@@ -135,12 +260,38 @@ const HomeScreen = () => {
 
 export default HomeScreen
 
-const Card = () => {
+const Card = ({
+  
+  imageUrl,
+  onPress,
+}: {
+  
+  imageUrl: string;
+  onPress?: () => void;
+}) => {
   return (
-    <View style={{flexDirection: "column", height: "200", position: "relative",borderRadius: 24, overflow: "hidden"}}>
-          <Image source={require('../assets/images/walk.png')} style={{position: "absolute", top: 0, left: 0, bottom: 0, right: 0}}/>
-          <Image source={require('../assets/images/sleep.png')} style={{position: "relative", top: 0, left: 0, bottom: 0, right: 0}}/>
-         </View>
-
-    )
-}
+    <TouchableOpacity
+      onPress={onPress}
+      style={{
+        flex: 1,
+        position: "relative",
+        overflow: "hidden",
+        borderRadius: 24,
+      }}
+    >
+      <Image
+        source={{
+          uri: imageUrl,
+        }}
+        resizeMode="contain"
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          bottom: 0,
+          right: 0,
+        }}
+      />
+    </TouchableOpacity>
+  );
+};
