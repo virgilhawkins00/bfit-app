@@ -18,6 +18,10 @@ const CustomBackdrop = ({ animatedIndex, style }: BottomSheetBackdropProps) => {
       [-1, 0],
       [0, 0.5],
       Extrapolate.CLAMP
+
+      
+
+      
     )})`,
   }));
 
@@ -33,9 +37,13 @@ const CustomBackdrop = ({ animatedIndex, style }: BottomSheetBackdropProps) => {
         animatedIndex.value,
         [-1, 0],
         [0, 20],
-        Extrapolate.CLAMP
+        Extrapolate.CLAMP,
+
+        
       ),
     };
+  
+    
   });
 
   return (
@@ -44,3 +52,18 @@ const CustomBackdrop = ({ animatedIndex, style }: BottomSheetBackdropProps) => {
 };
 
 export default CustomBackdrop;
+
+import CustomBottomTabs from "./CustomBottomTabs";
+
+
+// Review the code!
+// this._animatedValue = new Animated.Value(0);
+
+// const scaleAndFlipOnReverse = this._animatedValue.y.interpolate({
+//   inputRange: [0, deviceHeight],
+//   outputRange: [0.1, 2],
+//   extrapolateLeft: "extend",
+//   extrapolateRight: "clamp",
+// });
+
+// <Animated.View style={{ transform: [{ scale: scaleAndFlipOnReverse }] }} />;
