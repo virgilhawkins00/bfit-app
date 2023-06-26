@@ -2,7 +2,8 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/HomeScreen';
-import Icons from "@expo/vector-icons/MaterialIcons"
+
+import Icons from "@expo/vector-icons/MaterialIcons";
 
 export type TabsStackParamList = {
    Home: undefined; 
@@ -37,7 +38,7 @@ const TabsNavigator = () => {
             return <Icons name="fitness-center" {...props}/>
         },
       }}/>
-      <TabsStack.Screen name="Diet" component={Example} options={{
+      <TabsStack.Screen name="Diet" component={DietScreen} options={{
         headerShown: false,
         tabBarIcon(props) {
             return <Icons name="restaurant" {...props}/>
@@ -57,4 +58,8 @@ export default TabsNavigator;
 
 const Example = () => {
     return <View />;
+}
+
+const DietScreen = () => {
+  return <DietScreen/>
 }
