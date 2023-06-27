@@ -190,7 +190,7 @@ const HomeScreen = () => {
         <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Exercicios Recentes</Text>
             
         {/*Cards */}
-        {/* <View style={{ flexDirection: "row", height: 200, gap: 12 }}>
+        <View style={{ flexDirection: "row", height: 200, gap: 12 }}>
             <Card
               // onPress={() => {
               //   navigation.navigate('Details', {
@@ -221,7 +221,7 @@ const HomeScreen = () => {
               />
             </View>
             
-          </View> */}
+          </View>
           {/*Title Section*/}
         <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Exercicios Recentes</Text>
         <View>

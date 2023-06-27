@@ -17,11 +17,13 @@ import {
   import ImageListItem from '@mui/material/ImageListItem'
   import { BottomSheetModal } from '@gorhom/bottom-sheet';
   import CustomBackdrop from '../components/CustomBackdrop';
+  import { useNavigation } from '@react-navigation/native';
 
 
   const DietScreen = () => {
     const {colors} = useTheme()
     const [categoryIndex, setCategoryIndex] = useState(0)
+    const navigation = useNavigation();
     
   
     return (
