@@ -56,22 +56,7 @@ const images = [
   }
 ];
 
-// const EXERCICIOS =[
-//   {
-//     imageUrl: "https://i.imgur.com/hD9AhHF.png",
-//     title: "Yoga",
-//   },
-//   {
-//     imageUrl: "https://i.imgur.com/XoFdGOT.png",
-//     title: "Skipping",
-//   },
-//   {
-//     imageUrl: "https://i.imgur.com/IolQghA.png",
-//     title: "Running",
-//   },
-  
 
-// ]
 
 const HomeScreen = () => {
     const {colors} = useTheme()
@@ -162,7 +147,8 @@ const HomeScreen = () => {
         <Text style={{ fontSize: 20, fontWeight: "700", flexDirection: "row", alignItems: "center", justifyContent: "space-between", paddingHorizontal: 24, marginBottom: 24,}}>Today's Activity</Text>
         {/*Flatlist Section*/}
        
-        {/* MansonryList */}    
+        {/* MansonryList */}  
+  
         <MasonryList  
           data={images}
           keyExtractor={(item): string => item}
@@ -176,7 +162,7 @@ const HomeScreen = () => {
             overflow: "hidden", 
             borderRadius: 10
             }}>
-              <Image
+              <Image 
                 source={{uri: item.imageUrl,}} 
                 resizeMode="contain" 
                 style={StyleSheet.absoluteFill}
@@ -191,32 +177,20 @@ const HomeScreen = () => {
             
         {/*Cards */}
         <View style={{ flexDirection: "row", height: 200, gap: 12 }}>
-            <Card
-              // onPress={() => {
-              //   navigation.navigate('Details', {
-              //     id: "123",
-              //   });
-              // }}
-              
+            <Card onPress= {() =>{
+
+              }}
               imageUrl="https://i.imgur.com/hD9AhHF.png"
             />
             <View style={{ flex: 1, gap: 12 }}>
-              <Card
-                // onPress={() => {
-                //   navigation.navigate("Details", {
-                //     id: "456",
-                //   });
-                // }}
-               
+              <Card onPress= {() =>{
+
+              }}
                 imageUrl="https://i.imgur.com/XoFdGOT.png"
               />
-              <Card
-                // onPress={() => {
-                //   navigation.navigate("Details", {
-                //     id: "789",
-                //   });
-                // }}
-                
+              <Card onPress= {() =>{
+
+              }}
                 imageUrl="https://i.imgur.com/IolQghA.png"
               />
             </View>
