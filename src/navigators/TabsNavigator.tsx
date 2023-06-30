@@ -2,7 +2,10 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/HomeScreen';
-
+import ProfileScreen from '../screens/ProfileScreen';
+import DailyWorkoutScreen from '../screens/DailyWorkoutScreen';
+import WorkoutScreen from '../screens/WorkoutScreen';
+import DietsScreen from '../screens/DietsScreen';
 import Icons from "@expo/vector-icons/MaterialIcons";
 
 export type TabsStackParamList = {
@@ -26,25 +29,25 @@ const TabsNavigator = () => {
             return <Icons name="home" {...props}/>
         },
       }}/>
-      <TabsStack.Screen name="DailyGoals" component={Example} options={{
+      <TabsStack.Screen name="DailyGoals" component={DailyWorkoutScreen} options={{
         headerShown: false,
         tabBarIcon(props) {
             return <Icons name="today" {...props}/>
         },
       }}/>
-      <TabsStack.Screen name="Workout" component={Example} options={{
+      <TabsStack.Screen name="Workout" component={WorkoutScreen} options={{
         headerShown: false,
         tabBarIcon(props) {
             return <Icons name="fitness-center" {...props}/>
         },
       }}/>
-      <TabsStack.Screen name="Diet" component={DietScreen} options={{
+      <TabsStack.Screen name="Diet" component={DietsScreen} options={{
         headerShown: false,
         tabBarIcon(props) {
             return <Icons name="restaurant" {...props}/>
         },
       }}/>
-      <TabsStack.Screen name="Profile" component={Example} options={{
+      <TabsStack.Screen name="Profile" component={ProfileScreen} options={{
         headerShown: false,
         tabBarIcon(props) {
             return <Icons name="person" {...props}/>
