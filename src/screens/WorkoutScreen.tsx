@@ -62,9 +62,9 @@ import HomeScreen from './HomeScreen';
                              <Icons name="mic" size={30} color={colors.background}></Icons>
                         </TouchableOpacity>
                     </View>
-                    <Text style={{fontSize: 20, fontWeight: "600", marginBottom: 5, marginHorizontal: 10, marginTop: 30}} numberOfLines={1}>Tendencias de Exercicios</Text>
+                    <Text style={{fontSize: 20, fontWeight: "600", marginBottom: 20, marginHorizontal: 10, marginTop: 30}} numberOfLines={1}>Tendencias de Exercicios</Text>
                     {/*StatusBar Section*/}
-                    <View style={{flexDirection: "row", alignItems: "center", justifyContent: "center", height: 100, marginTop: 30}}>
+                    <View style={{flexDirection: "row", alignItems: "center", justifyContent: "center", height: 100, marginTop: 50}}>
                         <TouchableOpacity>
                             <Image source={require('../assets/images/banner002.png')}></Image>
                         </TouchableOpacity>   
