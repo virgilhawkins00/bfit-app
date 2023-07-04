@@ -41,8 +41,8 @@ import HomeScreen from './HomeScreen';
     const {colors} = useTheme()
     const [categoryIndex, setCategoryIndex] = useState(0)
     const navigation = useNavigation();
-    
-  
+ 
+
     return (
         <ScrollView>
             <View>
