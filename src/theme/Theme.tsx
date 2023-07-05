@@ -1,10 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import React, {useEffect, useState} from 'react';
-import {createContext} from 'react';
+import React, { useEffect, useState } from 'react';
+import { createContext } from 'react';
 
-import {ThemeProvider as ThemeProviderStyled} from 'styled-components';
-import {darkTheme} from './darkTheme';
-import {lightTheme} from './lightTheme';
+import { ThemeProvider as ThemeProviderStyled } from 'styled-components';
+import { darkTheme } from './darkTheme';
+import { lightTheme } from './lightTheme';
 
 export enum ThemeType {
   light = 'light',
@@ -16,12 +16,17 @@ const themes = {
   [ThemeType.dark]: darkTheme,
 };
 
-export const ThemeContext = createContext({
+type ThemeContextType = {
+  theme: ThemeType;
+  toggleTheme: () => void;
+};
+
+export const ThemeContext = createContext<ThemeContextType>({
   theme: ThemeType.light,
   toggleTheme: () => {},
 });
 
-export const ThemeProvider: React.FC = ({children}) => {
+export const ThemeProvider: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
   const [theme, setTheme] = useState(ThemeType.light);
 
   useEffect(() => {
@@ -31,24 +36,19 @@ export const ThemeProvider: React.FC = ({children}) => {
   async function loadTheme() {
     const savedTheme = await AsyncStorage.getItem('@theme');
     if (savedTheme) {
-      setTheme(savedTheme);
+      setTheme(savedTheme as ThemeType);
     }
   }
 
   function toggleTheme() {
-    let newTheme;
-    if (theme === ThemeType.light) {
-      newTheme = ThemeType.dark;
-    } else {
-      newTheme = ThemeType.light;
-    }
+    const newTheme = theme === ThemeType.light ? ThemeType.dark : ThemeType.light;
 
     AsyncStorage.setItem('@theme', newTheme);
     setTheme(newTheme);
   }
 
   return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <ThemeProviderStyled theme={themes[theme]}>
         {children}
       </ThemeProviderStyled>

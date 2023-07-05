@@ -4,7 +4,7 @@ import {MyButton} from '../../components/MyButton';
 import {MyTextInput} from '../../components/MyTextInput';
 import {useAuth} from '../../contexts/Auth';
 
-import logo from '../../assets/images/logofit100.png';
+const logo = 'https://i.imgur.com/k0ySNIL.png';
 
 import {Container} from './styles';
 import {ThemeContext, ThemeType} from '../../theme/Theme';
@@ -23,7 +23,7 @@ export function SignInScreen() {
 
       <Image
         resizeMode="contain"
-        source={logo}
+        source={{uri: logo, }}
         style={{width: 100, height: 100}}
       />
       <MyTextInput placeholder="e-mail" value={email} onChangeText={setEmail} />
