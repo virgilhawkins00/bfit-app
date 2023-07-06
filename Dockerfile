@@ -13,4 +13,4 @@ COPY . .
 
 #Iniciar aplicação
 
-CMD ["npx", "expo", "start", "--web"]
+CMD ["npx", "expo", "start", ]
