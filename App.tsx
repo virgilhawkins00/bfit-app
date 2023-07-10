@@ -9,6 +9,7 @@ import { BottomSheetProvider } from '@gorhom/bottom-sheet/lib/typescript/context
 import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 
 
+
 export default function App() {
   const theme: Theme = useMemo(() => ({...DefaultTheme, colors: {...DefaultTheme.colors, background: "#f5f5f5", text: "#7168D3", border: "#D9D9D9", primary: "#7168D3" }}), [])
   return (
@@ -29,3 +30,5 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
+
+

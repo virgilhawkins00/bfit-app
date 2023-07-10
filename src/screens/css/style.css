@@ -1,0 +1,3680 @@
+.box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.box .background-wrapper {
+    border: 0px none;
+    height: 812px;
+    width: 375px;
+}
+
+.box .background {
+    background-color: #ffffff;
+    height: 812px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 375px;
+}
+.onboarding {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.onboarding .overlap-group-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    width: 375px;
+}
+
+.onboarding .overlap-group {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+}
+
+.onboarding .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.onboarding .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.onboarding .background {
+    height: 44px;
+    left: -609px;
+    position: absolute;
+    top: 1357px;
+    width: 375px;
+}
+
+.onboarding .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.onboarding .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.onboarding .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.onboarding .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.onboarding .overlap {
+    height: 672px;
+    left: 0;
+    position: absolute;
+    top: 72px;
+    width: 365px;
+}
+
+.onboarding .logo-vector-bg {
+    height: 668px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 342px;
+}
+
+.onboarding .content {
+    height: 653px;
+    left: 35px;
+    position: absolute;
+    top: 19px;
+    width: 330px;
+}
+
+.onboarding .div {
+    color: #171433b2;
+    font-family: "Barlow-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 297px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+}
+
+.onboarding .h-1 {
+    color: var(--primary);
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 52px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 518px;
+    white-space: nowrap;
+}
+
+.onboarding .crie-seu-treino-e {
+    color: var(--primary-1);
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 594px;
+    width: 219px;
+}
+
+.onboarding .vector {
+    height: 286px;
+    left: 47px;
+    position: absolute;
+    top: 138px;
+    width: 289px;
+}
+
+.onboarding .slide {
+    height: 7px;
+    left: 158px;
+    position: absolute;
+    top: 777px;
+    width: 60px;
+}
+.onboarding {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.onboarding .overlap-group-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    width: 375px;
+}
+
+.onboarding .overlap-group {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+}
+
+.onboarding .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.onboarding .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.onboarding .background {
+    height: 44px;
+    left: -1439px;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.onboarding .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.onboarding .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.onboarding .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.onboarding .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.onboarding .overlap {
+    height: 686px;
+    left: 0;
+    position: absolute;
+    top: 53px;
+    width: 365px;
+}
+
+.onboarding .logo-vector-bg {
+    height: 668px;
+    left: 0;
+    position: absolute;
+    top: 18px;
+    width: 342px;
+}
+
+.onboarding .content {
+    height: 182px;
+    left: 34px;
+    position: absolute;
+    top: 0;
+    width: 330px;
+}
+
+.onboarding .div {
+    color: #171433b2;
+    font-family: "Barlow-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 297px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+}
+
+.onboarding .h-1 {
+    color: var(--primary);
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 52px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 47px;
+    white-space: nowrap;
+}
+
+.onboarding .p {
+    color: var(--primary-1);
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 123px;
+    width: 219px;
+}
+
+.onboarding .vector {
+    height: 360px;
+    left: 28px;
+    position: absolute;
+    top: 280px;
+    width: 319px;
+}
+
+.onboarding .slide {
+    height: 7px;
+    left: 160px;
+    position: absolute;
+    top: 776px;
+    width: 59px;
+}
+.onboarding {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.onboarding .overlap-group-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    overflow: hidden;
+    width: 375px;
+}
+
+.onboarding .overlap-group {
+    height: 813px;
+    position: relative;
+}
+
+.onboarding .background {
+    background-color: #ffffff;
+    height: 812px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 375px;
+}
+
+.onboarding .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.onboarding .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.onboarding .img {
+    height: 44px;
+    left: -1854px;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.onboarding .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.onboarding .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.onboarding .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.onboarding .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.onboarding .logo-vector-bg {
+    height: 668px;
+    left: 0;
+    position: absolute;
+    top: 72px;
+    width: 342px;
+}
+
+.onboarding .content {
+    height: 655px;
+    left: 34px;
+    position: absolute;
+    top: 53px;
+    width: 330px;
+}
+
+.onboarding .div {
+    color: #171433b2;
+    font-family: "Barlow-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 297px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+}
+
+.onboarding .h-1 {
+    color: var(--primary);
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 52px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 520px;
+    white-space: nowrap;
+}
+
+.onboarding .p {
+    color: var(--primary-1);
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 596px;
+    width: 219px;
+}
+
+.onboarding .vector {
+    height: 309px;
+    left: 23px;
+    position: absolute;
+    top: 170px;
+    width: 319px;
+}
+
+.onboarding .slide {
+    height: 7px;
+    left: 158px;
+    position: absolute;
+    top: 777px;
+    width: 58px;
+}
+
+
+.sign-in {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-in .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    width: 375px;
+}
+
+.sign-in .overlap {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+}
+
+.sign-in .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.sign-in .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.sign-in .background {
+    height: 44px;
+    left: -1033px;
+    position: absolute;
+    top: 1357px;
+    width: 375px;
+}
+
+.sign-in .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.sign-in .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.sign-in .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.sign-in .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.sign-in .home-indicator-instance {
+    left: 1px !important;
+    top: 778px !important;
+}
+
+.sign-in .content {
+    height: 19px;
+    left: 70px;
+    position: absolute;
+    top: 745px;
+    width: 236px;
+}
+
+.sign-in .n-o-tem-uma-conta {
+    color: transparent;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.sign-in .span {
+    color: #171433;
+}
+
+.sign-in .text-wrapper-2 {
+    color: #1d0aec;
+}
+
+.sign-in .button {
+    height: 66px;
+    left: 17px;
+    position: absolute;
+    top: 481px;
+    width: 344px;
+}
+
+.sign-in .overlap-group {
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 342px;
+}
+
+.sign-in .shadow {
+    background-color: var(--secondary-1);
+    border-radius: 33.5px;
+    filter: blur(35px);
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 342px;
+}
+
+.sign-in .bg {
+    background-color: #1d0aec;
+    border-radius: 33.5px;
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 342px;
+}
+
+.sign-in .div {
+    color: #ffffff;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 126px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: 91px;
+}
+
+.sign-in .fields {
+    height: 152px;
+    left: 16px;
+    position: absolute;
+    top: 290px;
+    width: 343px;
+}
+
+.sign-in .field {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+}
+
+.sign-in .overlap-group-2 {
+    border: 3px solid;
+    border-color: #7168d380;
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.sign-in .text-wrapper-3 {
+    color: #17143380;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+    width: 111px;
+}
+
+.sign-in .tick-icn {
+    height: 20px;
+    left: 296px;
+    position: absolute;
+    top: 20px;
+    width: 20px;
+}
+
+.sign-in .overlap-group-wrapper {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 86px;
+    width: 345px;
+}
+
+.sign-in .eye-icn {
+    height: 16px;
+    left: 295px;
+    position: absolute;
+    top: 22px;
+    width: 22px;
+}
+
+.sign-in .or-sign-up-with {
+    height: 88px;
+    left: 98px;
+    position: absolute;
+    top: 590px;
+    width: 181px;
+}
+
+.sign-in .text-wrapper-4 {
+    color: #171433;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.sign-in .google {
+    height: 51px;
+    left: 0;
+    position: absolute;
+    top: 37px;
+    width: 51px;
+}
+
+.sign-in .facebook {
+    height: 51px;
+    left: 64px;
+    position: absolute;
+    top: 37px;
+    width: 51px;
+}
+
+.sign-in .twitter {
+    height: 51px;
+    left: 128px;
+    position: absolute;
+    top: 37px;
+    width: 51px;
+}
+
+.sign-in .arw {
+    height: 32px;
+    left: 17px;
+    position: absolute;
+    top: 53px;
+    width: 31px;
+}
+
+.sign-in .overlap-2 {
+    height: 32px;
+    position: relative;
+}
+
+.sign-in .shadow-2 {
+    background-color: #7168d3;
+    border-radius: 8px;
+    filter: blur(45px);
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 16px;
+    width: 31px;
+}
+
+.sign-in .bg-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 31px;
+}
+
+.sign-in .icn {
+    height: 12px;
+    left: 12px;
+    position: absolute;
+    top: 10px;
+    width: 7px;
+}
+
+.sign-in .logo {
+    background-image: url(./fit-100-2-2.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 119px;
+    left: 127px;
+    position: absolute;
+    top: 108px;
+    width: 133px;
+}
+.verify-phone-number {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.verify-phone-number .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    overflow: hidden;
+    width: 375px;
+}
+
+.verify-phone-number .overlap {
+    height: 812px;
+    position: relative;
+    width: 376px;
+}
+
+.verify-phone-number .background {
+    background-color: #ffffff;
+    height: 812px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.verify-phone-number .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.verify-phone-number .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.verify-phone-number .img {
+    height: 44px;
+    left: -1439px;
+    position: absolute;
+    top: 1357px;
+    width: 375px;
+}
+
+.verify-phone-number .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.verify-phone-number .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.verify-phone-number .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.verify-phone-number .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.verify-phone-number .home-indicator-instance {
+    left: 1px !important;
+    top: 778px !important;
+}
+
+.verify-phone-number .content {
+    height: 242px;
+    left: 42px;
+    position: absolute;
+    top: 110px;
+    width: 295px;
+}
+
+.verify-phone-number .p {
+    color: #171433b2;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 291px;
+}
+
+.verify-phone-number .div {
+    color: #7168d3;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 218px;
+    white-space: nowrap;
+    width: 291px;
+}
+
+.verify-phone-number .title {
+    height: 22px;
+    left: 78px;
+    position: absolute;
+    top: 59px;
+    width: 228px;
+}
+
+.verify-phone-number .text-wrapper-2 {
+    color: #171433;
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+.verify-phone-number .button {
+    height: 66px;
+    left: 17px;
+    position: absolute;
+    top: 406px;
+    width: 345px;
+}
+
+.verify-phone-number .overlap-group {
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.verify-phone-number .shadow {
+    background-color: #1d0aec;
+    border-radius: 33.5px;
+    filter: blur(35px);
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 343px;
+}
+
+.verify-phone-number .bg {
+    background-color: #1d0aec;
+    border-radius: 33.5px;
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 343px;
+}
+
+.verify-phone-number .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 126px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: 91px;
+}
+
+.verify-phone-number .field {
+    height: 66px;
+    left: 16px;
+    position: absolute;
+    top: 213px;
+    width: 347px;
+}
+
+.verify-phone-number .overlap-2 {
+    border: 3px solid;
+    border-color: #7168d380;
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.verify-phone-number .text-wrapper-4 {
+    color: #171433;
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 51px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 30px;
+}
+
+.verify-phone-number .text-wrapper-5 {
+    color: #171433;
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 101px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 77px;
+}
+
+.verify-phone-number .dwn-arw {
+    height: 4px;
+    left: 81px;
+    position: absolute;
+    top: 30px;
+    width: 7px;
+}
+
+.verify-phone-number .delete-icn {
+    height: 20px;
+    left: 299px;
+    position: absolute;
+    top: 20px;
+    width: 20px;
+}
+
+.verify-phone-number .flag {
+    height: 13px;
+    left: 18px;
+    position: absolute;
+    top: 23px;
+    width: 20px;
+}
+
+.verify-phone-number .arw {
+    height: 32px;
+    left: 17px;
+    position: absolute;
+    top: 53px;
+    width: 31px;
+}
+
+.verify-phone-number .overlap-3 {
+    height: 32px;
+    position: relative;
+}
+
+.verify-phone-number .shadow-2 {
+    background-color: #7168d3;
+    border-radius: 8px;
+    filter: blur(45px);
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 16px;
+    width: 31px;
+}
+
+.verify-phone-number .bg-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 31px;
+}
+
+.verify-phone-number .icn {
+    height: 12px;
+    left: 12px;
+    position: absolute;
+    top: 10px;
+    width: 7px;
+}
+
+.verify-phone-number .keyboards-iphone-XS {
+    height: 291px;
+    left: 0;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 521px;
+    width: 376px;
+}
+
+.verify-phone-number .iphone-XS-keyboards {
+    height: 291px;
+    left: -1439px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 1357px;
+    width: 375px;
+}
+
+.verify-phone-number .overlap-4 {
+    height: 291px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.verify-phone-number .keyboard-numpad {
+    background-image: url(./gray.png);
+    background-size: 100% 100%;
+    height: 291px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.verify-phone-number .overlap-5 {
+    height: 46px;
+    left: 43px;
+    position: absolute;
+    top: 167px;
+    width: 282px;
+}
+
+.verify-phone-number .keys {
+    height: 17px;
+    left: 0;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 14px;
+    width: 282px;
+}
+
+.verify-phone-number .element {
+    height: 46px;
+    left: 86px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 0;
+    width: 119px;
+}
+
+.verify-phone-number .div-wrapper {
+    background-image: url(./group.png);
+    background-size: 100% 100%;
+    height: 47px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-6 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 10px;
+}
+
+.verify-phone-number .overlap-group-wrapper {
+    height: 47px;
+    left: 252px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 113px;
+    width: 121px;
+}
+
+.verify-phone-number .overlap-6 {
+    background-image: url(./image.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-7 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 42px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.verify-phone-number .text-wrapper-8 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 4px;
+}
+
+.verify-phone-number .element-2 {
+    height: 47px;
+    left: 129px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 113px;
+    width: 121px;
+}
+
+.verify-phone-number .overlap-7 {
+    background-image: url(./group-2.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-9 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 47px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.verify-phone-number .element-3 {
+    height: 47px;
+    left: 6px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 113px;
+    width: 121px;
+}
+
+.verify-phone-number .overlap-8 {
+    background-image: url(./group-3.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-10 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 43px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.verify-phone-number .element-4 {
+    height: 47px;
+    left: 252px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 59px;
+    width: 121px;
+}
+
+.verify-phone-number .overlap-9 {
+    background-image: url(./group-4.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-11 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 44px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.verify-phone-number .element-5 {
+    height: 47px;
+    left: 129px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 59px;
+    width: 121px;
+}
+
+.verify-phone-number .overlap-10 {
+    background-image: url(./group-5.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-12 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 49px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.verify-phone-number .element-6 {
+    height: 47px;
+    left: 6px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 59px;
+    width: 121px;
+}
+
+.verify-phone-number .overlap-11 {
+    background-image: url(./group-6.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-13 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.verify-phone-number .element-7 {
+    height: 46px;
+    left: 252px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 6px;
+    width: 121px;
+}
+
+.verify-phone-number .overlap-12 {
+    background-image: url(./group-7.png);
+    background-size: 100% 100%;
+    height: 47px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-14 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 30px;
+}
+
+.verify-phone-number .text-wrapper-15 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 3px;
+}
+
+.verify-phone-number .element-8 {
+    height: 46px;
+    left: 129px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 6px;
+    width: 121px;
+}
+
+.verify-phone-number .overlap-13 {
+    background-image: url(./group-8.png);
+    background-size: 100% 100%;
+    height: 47px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .text-wrapper-16 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+}
+
+.verify-phone-number .element-9 {
+    height: 46px;
+    left: 6px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 6px;
+    width: 119px;
+}
+
+.verify-phone-number .overlap-14 {
+    background-image: url(./group-9.png);
+    background-size: 100% 100%;
+    height: 47px;
+    position: relative;
+    width: 117px;
+}
+
+.verify-phone-number .home-indicator-2 {
+    height: 34px;
+    left: 0;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 257px;
+    width: 374px;
+}
+.splash {
+    background-color: #1d0aec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.splash .overlap-group-wrapper {
+    background-color: #1d0aec;
+    border: 1px solid;
+    border-color: #1d0aec;
+    height: 812px;
+    width: 375px;
+}
+
+.splash .overlap-group {
+    height: 812px;
+    position: relative;
+}
+
+.splash .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.splash .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.splash .background {
+    height: 44px;
+    left: -185px;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.splash .text-wrapper {
+    color: #ffffff;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 31px;
+}
+
+.splash .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 17px;
+    width: 17px;
+}
+
+.splash .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 17px;
+    width: 15px;
+}
+
+.splash .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 17px;
+    width: 25px;
+}
+
+.splash .logo {
+    background-image: url(./fit-100-1-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 120px;
+    left: 117px;
+    position: absolute;
+    top: 355px;
+    width: 142px;
+}
+
+.splash .vector-logo-bg {
+    height: 812px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 319px;
+}
+.welcome {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.welcome .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    width: 375px;
+}
+
+.welcome .overlap {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+}
+
+.welcome .overlap-group {
+    height: 764px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.welcome .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.welcome .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.welcome .background {
+    height: 44px;
+    left: -609px;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.welcome .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.welcome .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.welcome .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.welcome .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.welcome .logo-vector-bg {
+    height: 640px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 372px;
+}
+
+.welcome .logo {
+    height: 151px;
+    left: 141px;
+    position: absolute;
+    top: 36px;
+    width: 93px;
+}
+
+.welcome .vector {
+    background-image: url(./fit-100-2-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 107px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 93px;
+}
+
+.welcome .dot {
+    height: 5px;
+    left: 47px;
+    position: absolute;
+    top: 146px;
+    width: 5px;
+}
+
+.welcome .img {
+    height: 345px;
+    left: 0;
+    position: absolute;
+    top: 266px;
+    width: 375px;
+}
+
+.welcome .content {
+    height: 618px;
+    left: 78px;
+    position: absolute;
+    top: 146px;
+    width: 225px;
+}
+
+.welcome .h-1 {
+    color: var(--primary);
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+.welcome .p {
+    color: var(--primary-1);
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 219px;
+}
+
+.welcome .div {
+    color: #171433;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 599px;
+    white-space: nowrap;
+}
+
+.welcome .button {
+    height: 66px;
+    left: 17px;
+    position: absolute;
+    top: 653px;
+    width: 344px;
+}
+
+.welcome .overlap-group-2 {
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+}
+
+.welcome .shadow {
+    background-color: var(--secondary-1);
+    border-radius: 33.5px;
+    filter: blur(35px);
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 344px;
+}
+
+.welcome .bg {
+    background-color: #1d0aec;
+    border: 1px solid;
+    border-radius: 33.5px;
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 344px;
+}
+
+.welcome .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 166px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 674px;
+}
+
+.welcome .home-indicator {
+    height: 34px;
+    left: 1px;
+    position: absolute;
+    top: 778px;
+    width: 374px;
+}
+.sign-up {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-up .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    width: 375px;
+}
+
+.sign-up .overlap {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+}
+
+.sign-up .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.sign-up .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.sign-up .background {
+    height: 44px;
+    left: -1019px;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.sign-up .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.sign-up .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.sign-up .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.sign-up .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.sign-up .home-indicator {
+    height: 34px;
+    left: 1px;
+    position: absolute;
+    top: 778px;
+    width: 374px;
+}
+
+.sign-up .overlap-group {
+    height: 632px;
+    left: 16px;
+    position: absolute;
+    top: 132px;
+    width: 346px;
+}
+
+.sign-up .content {
+    height: 632px;
+    left: 42px;
+    position: absolute;
+    top: 0;
+    width: 267px;
+}
+
+.sign-up .h-1 {
+    color: var(--primary);
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 30px;
+    font-weight: 600;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.sign-up .p {
+    color: var(--primary-1);
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 261px;
+}
+
+.sign-up .text-wrapper-2 {
+    color: #171433;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 614px;
+    white-space: nowrap;
+}
+
+.sign-up .button {
+    height: 66px;
+    left: 1px;
+    position: absolute;
+    top: 378px;
+    width: 345px;
+}
+
+.sign-up .div {
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.sign-up .shadow {
+    background-color: var(--secondary-1);
+    border-radius: 33.5px;
+    filter: blur(35px);
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 343px;
+}
+
+.sign-up .bg {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 343px;
+}
+
+.sign-up .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 126px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: 91px;
+}
+
+.sign-up .fields {
+    height: 238px;
+    left: 0;
+    position: absolute;
+    top: 100px;
+    width: 343px;
+}
+
+.sign-up .field {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+}
+
+.sign-up .overlap-group-2 {
+    border: 3px solid;
+    border-color: #7168d380;
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.sign-up .text-wrapper-4 {
+    color: #17143380;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+}
+
+.sign-up .overlap-group-wrapper {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 86px;
+    width: 345px;
+}
+
+.sign-up .text-wrapper-5 {
+    color: #17143380;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+    width: 111px;
+}
+
+.sign-up .tick-icn {
+    height: 21px;
+    left: 296px;
+    position: absolute;
+    top: 20px;
+    width: 20px;
+}
+
+.sign-up .div-wrapper {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 172px;
+    width: 345px;
+}
+
+.sign-up .eye-icn {
+    height: 16px;
+    left: 295px;
+    position: absolute;
+    top: 22px;
+    width: 22px;
+}
+
+.sign-up .or-sign-up-with {
+    height: 88px;
+    left: 82px;
+    position: absolute;
+    top: 486px;
+    width: 181px;
+}
+
+.sign-up .text-wrapper-6 {
+    color: #171433;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.sign-up .google {
+    height: 51px;
+    left: 0;
+    position: absolute;
+    top: 37px;
+    width: 51px;
+}
+
+.sign-up .facebook {
+    height: 51px;
+    left: 64px;
+    position: absolute;
+    top: 37px;
+    width: 51px;
+}
+
+.sign-up .twitter {
+    height: 51px;
+    left: 128px;
+    position: absolute;
+    top: 37px;
+    width: 51px;
+}
+
+.sign-up .arw {
+    height: 32px;
+    left: 17px;
+    position: absolute;
+    top: 53px;
+    width: 31px;
+}
+
+.sign-up .overlap-2 {
+    height: 32px;
+    position: relative;
+}
+
+.sign-up .shadow-2 {
+    background-color: #7168d3;
+    border-radius: 8px;
+    filter: blur(45px);
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 16px;
+    width: 31px;
+}
+
+.sign-up .bg-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 31px;
+}
+
+.sign-up .icn {
+    height: 12px;
+    left: 12px;
+    position: absolute;
+    top: 10px;
+    width: 7px;
+}
+/* Phone Verification*/
+.box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.box .background-wrapper {
+    border: 0px none;
+    height: 812px;
+    width: 375px;
+}
+
+.box .background {
+    background-color: #ffffff;
+    height: 812px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 375px;
+}
+/*Forgot Password*/
+.forgot-password {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.forgot-password .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    overflow: hidden;
+    width: 375px;
+}
+
+.forgot-password .overlap {
+    height: 812px;
+    position: relative;
+    width: 376px;
+}
+
+.forgot-password .background {
+    background-color: #ffffff;
+    height: 812px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.forgot-password .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.forgot-password .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.forgot-password .img {
+    height: 44px;
+    left: -2684px;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.forgot-password .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.forgot-password .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.forgot-password .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.forgot-password .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.forgot-password .home-indicator-instance {
+    left: 1px !important;
+    top: 778px !important;
+}
+
+.forgot-password .field {
+    height: 66px;
+    left: 16px;
+    position: absolute;
+    top: 218px;
+    width: 345px;
+}
+
+.forgot-password .overlap-group {
+    border: 3px solid;
+    border-color: #7168d380;
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.forgot-password .email {
+    color: #17143380;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+    width: 111px;
+}
+
+.forgot-password .tick-icn {
+    height: 20px;
+    left: 296px;
+    position: absolute;
+    top: 20px;
+    width: 20px;
+}
+
+.forgot-password .button {
+    height: 66px;
+    left: 16px;
+    position: absolute;
+    top: 304px;
+    width: 345px;
+}
+
+.forgot-password .div {
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.forgot-password .shadow {
+    background-color: var(--secondary-1);
+    border-radius: 33.5px;
+    filter: blur(35px);
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 343px;
+}
+
+.forgot-password .bg {
+    background-color: #1d0aec;
+    border-radius: 33.5px;
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 343px;
+}
+
+.forgot-password .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 126px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: 91px;
+}
+
+.forgot-password .content {
+    height: 72px;
+    left: 16px;
+    position: absolute;
+    top: 110px;
+    width: 344px;
+}
+
+.forgot-password .p {
+    color: #171433b2;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 342px;
+}
+
+.forgot-password .title {
+    height: 44px;
+    left: 111px;
+    position: absolute;
+    top: 59px;
+    width: 163px;
+}
+
+.forgot-password .text-wrapper-3 {
+    color: #171433;
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+.forgot-password .arw {
+    height: 32px;
+    left: 17px;
+    position: absolute;
+    top: 53px;
+    width: 31px;
+}
+
+.forgot-password .overlap-2 {
+    height: 32px;
+    position: relative;
+}
+
+.forgot-password .shadow-2 {
+    background-color: #7168d3;
+    border-radius: 8px;
+    filter: blur(45px);
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 16px;
+    width: 31px;
+}
+
+.forgot-password .bg-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 31px;
+}
+
+.forgot-password .icn {
+    height: 12px;
+    left: 12px;
+    position: absolute;
+    top: 10px;
+    width: 7px;
+}
+
+.forgot-password .keyboards-iphone-XS {
+    height: 291px;
+    left: 0;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 521px;
+    width: 376px;
+}
+
+.forgot-password .iphone-XS-keyboards {
+    height: 291px;
+    left: -2684px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.forgot-password .overlap-3 {
+    height: 291px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.forgot-password .keyboard-numpad {
+    background-image: url(./gray.png);
+    background-size: 100% 100%;
+    height: 291px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.forgot-password .overlap-4 {
+    height: 46px;
+    left: 43px;
+    position: absolute;
+    top: 167px;
+    width: 282px;
+}
+
+.forgot-password .keys {
+    height: 17px;
+    left: 0;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 14px;
+    width: 282px;
+}
+
+.forgot-password .element {
+    height: 46px;
+    left: 86px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 0;
+    width: 119px;
+}
+
+.forgot-password .div-wrapper {
+    background-image: url(./group.png);
+    background-size: 100% 100%;
+    height: 47px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-4 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 10px;
+}
+
+.forgot-password .overlap-group-wrapper {
+    height: 47px;
+    left: 252px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 113px;
+    width: 121px;
+}
+
+.forgot-password .overlap-5 {
+    background-image: url(./image.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-5 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 42px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.forgot-password .text-wrapper-6 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 4px;
+}
+
+.forgot-password .element-2 {
+    height: 47px;
+    left: 129px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 113px;
+    width: 121px;
+}
+
+.forgot-password .overlap-6 {
+    background-image: url(./group-2.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-7 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 47px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.forgot-password .element-3 {
+    height: 47px;
+    left: 6px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 113px;
+    width: 121px;
+}
+
+.forgot-password .overlap-7 {
+    background-image: url(./group-3.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-8 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 43px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.forgot-password .element-4 {
+    height: 47px;
+    left: 252px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 59px;
+    width: 121px;
+}
+
+.forgot-password .overlap-8 {
+    background-image: url(./group-4.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-9 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 44px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.forgot-password .element-5 {
+    height: 47px;
+    left: 129px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 59px;
+    width: 121px;
+}
+
+.forgot-password .overlap-9 {
+    background-image: url(./group-5.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-10 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 49px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.forgot-password .element-6 {
+    height: 47px;
+    left: 6px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 59px;
+    width: 121px;
+}
+
+.forgot-password .overlap-10 {
+    background-image: url(./group-6.png);
+    background-size: 100% 100%;
+    height: 48px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-11 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 31px;
+}
+
+.forgot-password .element-7 {
+    height: 46px;
+    left: 252px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 6px;
+    width: 121px;
+}
+
+.forgot-password .overlap-11 {
+    background-image: url(./group-7.png);
+    background-size: 100% 100%;
+    height: 47px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-12 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 30px;
+}
+
+.forgot-password .text-wrapper-13 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 3px;
+}
+
+.forgot-password .element-8 {
+    height: 46px;
+    left: 129px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 6px;
+    width: 121px;
+}
+
+.forgot-password .overlap-12 {
+    background-image: url(./group-8.png);
+    background-size: 100% 100%;
+    height: 47px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .text-wrapper-14 {
+    color: #000000;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+}
+
+.forgot-password .element-9 {
+    height: 46px;
+    left: 6px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 6px;
+    width: 119px;
+}
+
+.forgot-password .overlap-13 {
+    background-image: url(./group-9.png);
+    background-size: 100% 100%;
+    height: 47px;
+    position: relative;
+    width: 117px;
+}
+
+.forgot-password .home-indicator-2 {
+    height: 34px;
+    left: 0;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 257px;
+    width: 374px;
+}
+/*Change Password*/
+.change-password {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.change-password .div-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    width: 375px;
+}
+
+.change-password .overlap-2 {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+}
+
+.change-password .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.change-password .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.change-password .background {
+    height: 44px;
+    left: -3099px;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.change-password .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.change-password .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.change-password .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.change-password .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.change-password .keyboards-iphone-x-browser-light {
+    left: 0 !important;
+    position: absolute !important;
+    top: 521px !important;
+}
+
+.change-password .button {
+    height: 66px;
+    left: 16px;
+    position: absolute;
+    top: 406px;
+    width: 345px;
+}
+
+.change-password .overlap-3 {
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.change-password .shadow {
+    background-color: var(--secondary-1);
+    border-radius: 33.5px;
+    filter: blur(35px);
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 343px;
+}
+
+.change-password .bg {
+    background-color: #1d0aec;
+    border-radius: 33.5px;
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 343px;
+}
+
+.change-password .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 126px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: 91px;
+}
+
+.change-password .content {
+    height: 24px;
+    left: 16px;
+    position: absolute;
+    top: 110px;
+    width: 344px;
+}
+
+.change-password .text-wrapper-3 {
+    color: #171433b2;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 342px;
+}
+
+.change-password .title {
+    height: 22px;
+    left: 131px;
+    position: absolute;
+    top: 59px;
+    width: 122px;
+}
+
+.change-password .text-wrapper-4 {
+    color: #171433;
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+.change-password .arw {
+    height: 32px;
+    left: 17px;
+    position: absolute;
+    top: 53px;
+    width: 31px;
+}
+
+.change-password .overlap-4 {
+    height: 32px;
+    position: relative;
+}
+
+.change-password .shadow-2 {
+    background-color: #7168d3;
+    border-radius: 8px;
+    filter: blur(45px);
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 16px;
+    width: 31px;
+}
+
+.change-password .bg-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 31px;
+}
+
+.change-password .icn {
+    height: 12px;
+    left: 12px;
+    position: absolute;
+    top: 10px;
+    width: 7px;
+}
+
+.change-password .fields {
+    height: 152px;
+    left: 16px;
+    position: absolute;
+    top: 218px;
+    width: 343px;
+}
+
+.change-password .field {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+}
+
+.change-password .overlap-group-2 {
+    border: 3px solid;
+    border-color: #7168d380;
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.change-password .text-wrapper-5 {
+    color: #17143380;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+    width: 163px;
+}
+
+.change-password .eye-icn {
+    height: 16px;
+    left: 295px;
+    position: absolute;
+    top: 22px;
+    width: 22px;
+}
+
+.change-password .field-2 {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 86px;
+    width: 345px;
+}
+/*Reset Password Sucess Splash*/
+.reset-password {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.reset-password .div-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 812px;
+    width: 375px;
+}
+
+.reset-password .overlap-2 {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+}
+
+.reset-password .top-bar {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.reset-password .bars-status-bar {
+    height: 44px;
+    position: relative;
+    width: 377px;
+}
+
+.reset-password .background {
+    height: 44px;
+    left: -3514px;
+    position: absolute;
+    top: 430px;
+    width: 375px;
+}
+
+.reset-password .text-wrapper {
+    color: #000000;
+    font-family: "SF Pro Text-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+}
+
+.reset-password .status {
+    height: 11px;
+    left: 292px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+}
+
+.reset-password .wifi {
+    height: 11px;
+    left: 315px;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+}
+
+.reset-password .battery {
+    height: 12px;
+    left: 337px;
+    position: absolute;
+    top: 16px;
+    width: 25px;
+}
+
+.reset-password .keyboards-iphone-x-browser-light {
+    background-image: url(./keyboard-background-2.svg) !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 521px !important;
+}
+
+.reset-password .keyboards-iphone-x-instance {
+    background-image: url(./key-bg-5.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-browser-light-instance {
+    background-image: url(./key-bg-6.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-2 {
+    background-image: url(./key-bg-7.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-3 {
+    background-image: url(./key-bg-8.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-4 {
+    background-image: url(./key-bg-9.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-5 {
+    background-image: url(./key-bg-10.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-6 {
+    background-image: url(./key-bg-11.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-7 {
+    background-image: url(./key-bg-12.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-8 {
+    background-image: url(./key-bg-13.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-9 {
+    background-image: url(./key-bg-14.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-10 {
+    background-image: url(./key-bg-15.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-11 {
+    background-image: url(./key-bg-16.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-12 {
+    background-image: url(./key-bg-17.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-13 {
+    background-image: url(./key-bg-18.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-14 {
+    background-image: url(./key-bg-19.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-15 {
+    background-image: url(./key-bg-20.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-16 {
+    background-image: url(./key-bg-21.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-17 {
+    background-image: url(./key-bg-22.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-18 {
+    background-image: url(./key-bg-23.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-19 {
+    background-image: url(./key-bg-24.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-20 {
+    background-image: url(./key-bg-25.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-21 {
+    background-image: url(./key-bg-26.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-22 {
+    background-image: url(./key-bg-27.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-23 {
+    background-image: url(./key-bg-28.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-24 {
+    background-image: url(./key-bg-29.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-25 {
+    background-image: url(./key-bg-30.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-26 {
+    background-image: url(./key-bg-31.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-27 {
+    background-image: url(./key-bg-32.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-28 {
+    background-image: url(./key-bg-33.svg) !important;
+    height: 43px !important;
+}
+
+.reset-password .keyboards-iphone-x-29 {
+    background-image: url(./key-bg-34.svg) !important;
+}
+
+.reset-password .keyboards-iphone-x-30 {
+    background-image: url(./key-bg-35.svg) !important;
+}
+
+.reset-password .keyboards-iphone-x-31 {
+    background-image: url(./key-bg-36.svg) !important;
+}
+
+.reset-password .keyboards-iphone-x-32 {
+    background-image: url(./key-bg-37.svg) !important;
+}
+
+.reset-password .keyboards-iphone-x-33 {
+    background-image: url(./dictation-2.svg) !important;
+}
+
+.reset-password .keyboards-iphone-x-34 {
+    background-image: url(./emojis-2.svg) !important;
+}
+
+.reset-password .button {
+    height: 66px;
+    left: 16px;
+    position: absolute;
+    top: 406px;
+    width: 345px;
+}
+
+.reset-password .overlap-3 {
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.reset-password .shadow {
+    background-color: var(--secondary-1);
+    border-radius: 33.5px;
+    filter: blur(35px);
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    width: 343px;
+}
+
+.reset-password .bg {
+    background-color: var(--secondary-1);
+    border-radius: 33.5px;
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 343px;
+}
+
+.reset-password .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 126px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: 91px;
+}
+
+.reset-password .content {
+    height: 24px;
+    left: 16px;
+    position: absolute;
+    top: 110px;
+    width: 344px;
+}
+
+.reset-password .text-wrapper-3 {
+    color: #171433b2;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 342px;
+}
+
+.reset-password .title {
+    height: 22px;
+    left: 121px;
+    position: absolute;
+    top: 59px;
+    width: 142px;
+}
+
+.reset-password .text-wrapper-4 {
+    color: #171433;
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+.reset-password .arw {
+    height: 32px;
+    left: 17px;
+    position: absolute;
+    top: 53px;
+    width: 31px;
+}
+
+.reset-password .overlap-4 {
+    height: 32px;
+    position: relative;
+}
+
+.reset-password .shadow-2 {
+    background-color: #7168d3;
+    border-radius: 8px;
+    filter: blur(45px);
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 16px;
+    width: 31px;
+}
+
+.reset-password .bg-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 31px;
+}
+
+.reset-password .icn {
+    height: 12px;
+    left: 12px;
+    position: absolute;
+    top: 10px;
+    width: 7px;
+}
+
+.reset-password .fields {
+    height: 152px;
+    left: 16px;
+    position: absolute;
+    top: 218px;
+    width: 343px;
+}
+
+.reset-password .field {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 345px;
+}
+
+.reset-password .overlap-group-2 {
+    border: 3px solid;
+    border-color: #7168d380;
+    border-radius: 33.5px;
+    height: 66px;
+    position: relative;
+    width: 343px;
+}
+
+.reset-password .text-wrapper-5 {
+    color: #17143380;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+    width: 163px;
+}
+
+.reset-password .eye-icn {
+    height: 16px;
+    left: 295px;
+    position: absolute;
+    top: 22px;
+    width: 22px;
+}
+
+.reset-password .field-2 {
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 86px;
+    width: 345px;
+}
+
+.reset-password .popup {
+    background-color: #171433e6;
+    height: 812px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.reset-password .overlap-5 {
+    background-color: #7fe4f0;
+    border-radius: 200px;
+    height: 509px;
+    left: 34px;
+    position: relative;
+    top: 158px;
+    width: 306px;
+}
+
+.reset-password .key-vector {
+    height: 247px;
+    left: 30px;
+    position: absolute;
+    top: 34px;
+    width: 247px;
+}
+
+.reset-password .content-2 {
+    height: 56px;
+    left: 62px;
+    position: absolute;
+    top: 302px;
+    width: 184px;
+}
+
+.reset-password .text-wrapper-6 {
+    color: #171433;
+    font-family: "Barlow-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 182px;
+}
+
+.reset-password .button-2 {
+    height: 63px;
+    left: 60px;
+    position: absolute;
+    top: 384px;
+    width: 190px;
+}
+
+.reset-password .overlap-group-3 {
+    background-image: url(./shadow.svg);
+    background-size: 100% 100%;
+    height: 107px;
+    left: -33px;
+    position: relative;
+    top: -9px;
+    width: 254px;
+}
+
+.reset-password .img {
+    height: 58px;
+    left: 33px;
+    position: absolute;
+    top: 9px;
+    width: 188px;
+}
+
+.reset-password .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Barlow-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 107px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 27px;
+}
