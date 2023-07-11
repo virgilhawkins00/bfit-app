@@ -24,7 +24,7 @@
     "expo-linear-gradient": "~12.0.1",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.8",
+    "react-native": "^0.72.2",
     "react-native-async-storage": "^0.0.1",
     "react-native-gesture-handler": "~2.8.0",
     "react-native-home-indicator": "^0.2.10",
