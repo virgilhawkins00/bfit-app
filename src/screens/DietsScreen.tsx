@@ -19,6 +19,7 @@ import {
   import CustomBackdrop from '../components/CustomBackdrop';
   import { useNavigation } from '@react-navigation/native';
   import HomeScreen from './HomeScreen';
+import WorkoutScreen from './WorkoutScreen';
 
 
   const DietCategories = [

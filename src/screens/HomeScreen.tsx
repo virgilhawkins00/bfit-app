@@ -17,6 +17,7 @@ import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSh
 import ImageListItem from '@mui/material/ImageListItem'
 import { BottomSheetModal } from '@gorhom/bottom-sheet';
 import CustomBackdrop from '../components/CustomBackdrop';
+import { LoginScreen } from './LoginScreen';
 
 
 const CATEGORIES =  [
@@ -86,6 +87,9 @@ const HomeScreen = () => {
             </TouchableOpacity>
             <TouchableOpacity style={{width: 52, aspectRatio: 1, alignItems: 'center', justifyContent: "center", borderRadius: 52, borderWidth: 1, borderColor: colors.border,}}>
               <Icons name="notifications" size={30} color={colors.text}></Icons>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={LoginScreen} style={{width: 52, aspectRatio: 1, alignItems: 'center', justifyContent: "center", borderRadius: 52, borderWidth: 1, borderColor: colors.border,}}>
+              <Icons name="login" size={30} color={colors.text}></Icons>
             </TouchableOpacity>
         </View>
         {/*Status Bar Section*/}
