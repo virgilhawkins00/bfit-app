@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { SignInScreen } from '../screens/SignInScreen/SignInScreen'
+import { SignInScreen } from '../screens/SignUpScreen/SignInScreen'
 import { useTheme } from "styled-components/native";
 
 const Stack = createNativeStackNavigator();

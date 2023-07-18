@@ -6,7 +6,7 @@ import {useAuth} from '../../contexts/Auth';
 
 const logo = 'https://i.imgur.com/k0ySNIL.png';
 
-import {Container} from './styles';
+import {Container} from '../SignInScreen/styles';
 import {ThemeContext, ThemeType} from '../../theme/Theme';
 
 export function SignInScreen() {
@@ -16,6 +16,8 @@ export function SignInScreen() {
   const {toggleTheme, theme} = useContext(ThemeContext);
 
   const darkModeIsEnabled = theme === ThemeType.dark;
+
+  const login = (props: any) => {
 
   return (
     <Container>
@@ -37,4 +39,5 @@ export function SignInScreen() {
       <MyButton onPress={() => signIn(email, password)} title="Entrar no App" />
     </Container>
   );
+}
 }
