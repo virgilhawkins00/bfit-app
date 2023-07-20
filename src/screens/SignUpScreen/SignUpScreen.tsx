@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Touchable, TouchableOpacity} from 'react-native';
 
 import Btn from '../../components/Btn';
-import {darkGreen} from '../../components/constants';
+import {darkGreen} from '../../components/Constants';
 import Field from '../../components/Field';
 import { ScrollView } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -28,7 +28,7 @@ const Signup = (props: { navigation: { navigate: (arg0: string) => void; }; }) =
           style={{
             color: '#171433',
             fontSize: 16,
-            fontWeight: 'regular',
+            fontWeight: '600',
             fontFamily: "Barlow",
             marginBottom: 20,
             textAlign: "center",

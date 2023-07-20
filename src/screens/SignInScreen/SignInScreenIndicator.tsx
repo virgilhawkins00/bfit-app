@@ -1,6 +1,7 @@
 import React from "react";
-import { HomeIndicator } from "./HomeIndicator";
+/*import { HomeIndicator } from "./HomeIndicator"; */
 import "./style.css";
+import { HomeIndicator } from "react-native-home-indicator";
 
 export const SignIn = (): JSX.Element => {
     return (
