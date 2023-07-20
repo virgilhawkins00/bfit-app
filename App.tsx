@@ -22,7 +22,7 @@ export default function App() {
       <NavigationContainer theme={theme}>
         <BottomSheetModalProvider>
           <Stack.Navigator screenOptions={{headerShown: false}}>
-            <Stack.Screen name="Login" component={SignInScreen}/>
+           {/* /* <Stack.Screen name="Login" component={SignInScreen}/>*/ }
             <Stack.Screen name='SignUp' component={SignUpScreen}/>
             <Stack.Screen name='Home' component={RootNavigator}/>
             </Stack.Navigator>
