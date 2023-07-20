@@ -1,6 +1,6 @@
 
-<br>
-![project-img2 png](https://github.com/virgilhawkins00/bfit-app/assets/105638600/506c1bff-0bd0-4f85-8326-54fa921656da)
+![project-img2 png](https://github.com/virgilhawkins00/bfit-app/assets/105638600/359bb390-d5db-41ee-9d4b-427c5ba8b2a8)
+
  !Comming soon Bfit - Health and Wellness
 
 Welcome to Bfit, the app that was created to help you reach your best self. Our mission is to promote a healthy and balanced life, focusing on three fundamental pillars: exercise, emotional well-being, and a balanced diet.
